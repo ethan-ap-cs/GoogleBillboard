@@ -19,9 +19,9 @@ public void setup(){
 	String digits = "yo";      
 	for (int n = 2; n < e.length(); n++){
 		digits = e.substring(n, n+10);
-		System.out.println(digits);
 		if (isPrime(Double.parseDouble(digits))){
 			System.out.println(digits);
+			break;
 		}
 	}
 }  

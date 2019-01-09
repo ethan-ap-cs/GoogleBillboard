@@ -2,10 +2,10 @@ public final static String e = "2.7182818284590452353602874713526624977572470936
 public void setup(){
 	String digits = "yo";      
 	for (int n = 2; n < e.length(); n++){
-		digits = e.substring(n, n+10);
-		System.out.println(digits);
+		digits = e.substring(n, n+10);b
 		if (isPrime(Double.parseDouble(digits))){
 			System.out.println(digits);
+			break;
 		}
 	}
 }  
